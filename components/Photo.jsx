@@ -6,13 +6,7 @@ import Image from 'next/image';
 const Photo = () => {
   return (
     <div className='w-full h-full relative'>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: { delay: 0.5, duration: 0.5, ease: 'easeIn' },
-        }}
-      >
+      <div>
         {/* images */}
         <div className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute'>
           <Image
@@ -51,7 +45,7 @@ const Photo = () => {
             }}
           />
         </motion.svg>
-      </motion.div>
+      </div>
     </div>
   );
 };

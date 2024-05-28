@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={JetBrainsMono.variable}>
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
