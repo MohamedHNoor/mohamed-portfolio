@@ -18,7 +18,7 @@ const Stats = () => {
               <CountUp
                 end={num}
                 duration={5}
-                delay={2}
+                delay={0.05}
                 formattingFn={(value) =>
                   value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '')
                 }
